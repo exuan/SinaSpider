@@ -26,15 +26,17 @@ SCHEDULER_QUEUE_CLASS = 'Sina_spider3.scrapy_redis.queue.SpiderSimpleQueue'
 REDIE_URL = None
 REDIS_HOST = 'localhost'
 REDIS_PORT = 6379
+REDIS_PASSWORD = 'password'
 
 # 去重队列的信息
 FILTER_URL = None
 FILTER_HOST = 'localhost'
 FILTER_PORT = 6379
 FILTER_DB = 0
+FILTER_PASSWORD = 'password'
 
 DOWNLOAD_DELAY = 10  # 间隔时间
-# LOG_LEVEL = 'INFO'  # 日志级别
+LOG_LEVEL = 'INFO'  # 日志级别
 CONCURRENT_REQUESTS = 1  # 默认为16
 # CONCURRENT_ITEMS = 1
 # CONCURRENT_REQUESTS_PER_IP = 1
